@@ -1,6 +1,7 @@
 # cd0354-monolith-to-microservices-circleci-exercise
 A sample node application to showcase the use of CircleCI
 
+##checking git steps
 
 ## How to build on local?
 Ensure that you have Node v18.15.0 or higher installed on your local machine.
