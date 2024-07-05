@@ -2,7 +2,7 @@
 A sample node application to showcase the use of CircleCI
 
 # JDC : Updated just README for testing with Docker_Push, added env vars in proj settings in circleci
-
+# JDC 05/07/24 : Again Updated just README for testing with Docker_Push, added env vars in proj settings in circleci
 ## How to build on local?
 Ensure that you have Node v18.15.0 or higher installed on your local machine.
 ```bash
