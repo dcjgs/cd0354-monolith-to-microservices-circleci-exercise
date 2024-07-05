@@ -18,7 +18,7 @@ jobs:
           command: |
             echo "Inside the Build and push Docker image step"
             docker --version # print the version for logging
-            docker build -t dcjgs/sample-express-app .        
+            docker build -t dcjgs/sample-express-app-geo .        
             docker tag dcjgs/sample-express-app-geo dcjgs/sample-express-app-geo:1.0.0
             echo "$DOCKER_PASSWORD" | docker login -u "$DOCKER_USERNAME" --password-stdin
             docker push dcjgs/sample-express-app-geo:1.0.0
